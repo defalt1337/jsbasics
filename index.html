@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JS basics with some positioning">
+    <meta name="author" content="BerenyiB">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/format.css">
+    <link rel="stylesheet" href="css/position.css">
+    <title>JS basics</title>
+</head>
+<body>
+    <header>Fixed header, ignoring scroll</header>
+    <main>
+        <nav>
+            <h2>Side navbar</h2>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Pics</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            <section>
+                <form novalidate>
+                    <fieldset>
+                        <legend>Calculator</legend>
+                        <div>
+                            <label for="a">Input a number</label>
+                            <input type="text" id="a" name="a" placeholder="Input goes here">
+                        </div>
+                        <div>
+                            <label for="b">Input a another number</label>
+                            <input type="text" id="b" name="b" placeholder="Input goes here">
+                        </div>
+                        <div>
+                            <label for="smtn">Input smtn</label>
+                            <input type="text" id="smtn" name="smtn" placeholder="Input goes here + - *">
+                        </div>
+                        <input type="button" id="calculate" value="Calculate" onclick="idk()">
+                        <button id="close">x</button>
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <p id="text">...</p>
+            </section>
+        </article>
+        <div id="qstnmark">?</div>
+        <footer><p>Fixed footer</p></footer>
+    </main>
+</body>
+</html>
